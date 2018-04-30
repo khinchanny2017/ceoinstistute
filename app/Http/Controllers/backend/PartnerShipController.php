@@ -18,7 +18,7 @@ class PartnerShipController extends Controller
     public function index()
     {
         //
-        $partners = DB::table('company_partner')->get();
+        $partners = DB::table('company_partner')->limit(3)->get();
 
             return view('backend.partnership.show', ['partners' => $partners]);
         
@@ -58,7 +58,7 @@ class PartnerShipController extends Controller
             }
          }
         Partner::create($request->all());
-        return redirect('backend.partnership.form')->with('success', 'Information has been added');
+        return redirect('backend/partner/form')->with('success', 'Information has been added');
        
     }
 
@@ -82,6 +82,7 @@ class PartnerShipController extends Controller
     public function edit($id)
     {
         //
+        return view('backend.partnership.update');
     }
 
     /**

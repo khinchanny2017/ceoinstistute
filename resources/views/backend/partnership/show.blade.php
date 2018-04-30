@@ -29,7 +29,8 @@
 		       <td>
 		       	<td>
 		       	<a href="" class="btn btn-warning">Update</a>
-       
+       			</td>
+       			<td>
 		       	<a href="" class="btn btn-danger">Deleted</a>
 		       </td>
 		      </tr>
