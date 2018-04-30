@@ -5,7 +5,8 @@ namespace App\Http\Controllers\Backend;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-use App\Models\Partnership;
+use Illuminate\Support\Facades\DB;
+use App\Models\Partner;
 
 class PartnerShipController extends Controller
 {
@@ -17,7 +18,10 @@ class PartnerShipController extends Controller
     public function index()
     {
         //
-         return view ('backend.partnership.form');
+        $partners = DB::table('company_partner')->get();
+
+            return view('backend.partnership.show', ['partners' => $partners]);
+        
     }
 
     /**
@@ -38,8 +42,23 @@ class PartnerShipController extends Controller
      */
     public function store(Request $request)
     {
-        echo "string";
-      
+        request()->validate([
+            'company_name' => 'required',
+            'logo_company' => 'required',
+            'description_company' => 'required',
+            'url_website' => 'required',
+        ]);
+        if($request->hasfile('logo_company'))
+         {
+            foreach($request->file('logo_company') as $image)
+            {
+                $name=$image->getClientOriginalName();
+                $image->move(public_path().'/img/backend/image', $name);  
+                $data[] = $name;  
+            }
+         }
+        Partner::create($request->all());
+        return redirect('backend.partnership.form')->with('success', 'Information has been added');
        
     }
 
