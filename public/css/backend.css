@@ -1,0 +1,12 @@
+.navbar-laravel {
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    /*padding: 28px;*/
+}
+img.ima-logo {
+    width: 60%;
+}
+img.img_fix{
+	width: 50%;
+}
