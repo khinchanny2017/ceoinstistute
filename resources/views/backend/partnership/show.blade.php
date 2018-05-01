@@ -28,10 +28,11 @@
 		       <td>{{$show->url_website}}</td>
 		       <td>
 		       	<td>
-		       	<a href="" class="btn btn-warning">Update</a>
+		       	<a href="{{ route('form.edit', $show->id) }}" class="btn btn-warning">Update</a>
        			</td>
+
        			<td>
-		       	<a href="" class="btn btn-danger">Deleted</a>
+		       	<a href="#" class="btn btn-danger">Deleted</a>
 		       </td>
 		      </tr>
 		    </tbody>

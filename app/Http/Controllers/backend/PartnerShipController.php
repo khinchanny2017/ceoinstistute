@@ -94,7 +94,12 @@ class PartnerShipController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $partners= Partner::find($id);
+        $partners->company_name=$request->get('company_name');
+        $partners->logo_company=$request->get('logo_company');
+        $partners->description_company=$request->get('description_company');
+        $partners->url_website=$request->get('url_website');
+        $partners->save();
     }
 
     /**
@@ -105,6 +110,7 @@ class PartnerShipController extends Controller
      */
     public function destroy($id)
     {
-        //
+         $partners = Partner::find($id);
+        $partners->delete();
     }
 }
