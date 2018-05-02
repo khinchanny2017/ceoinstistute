@@ -22,8 +22,11 @@
                     <i class="fa fa-bars"></i>
                 </button>
           <a class="navbar-brand" href="/">
-                    <img class="log-img" src="{{ asset('img/logo_ceoins.png') }}" alt="" />
-                </a>
+              <img class="log-img" src="{{ asset('img/logo_ceoins.png') }}" alt="" />              
+          </a>
+          <a class="navbar-brand" href="http://www.ceomasterclub.com/">
+            <img class="log-img img-ceo" src="{{ asset('img/frontend/logo_ceo.png') }}" alt="">
+          </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -32,41 +35,49 @@
              <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colleges<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="index.html">Colleges</a></li>
-                <li><a href="index.html">About Us</a></li>
-                <li><a href="index.html">About Us</a></li>
+                <li><a href="index.html">Faculty of International Bussiness Management</a></li>
+                <li><a href="index.html">Faculty of Accounting and Finance </a></li>
+                <li><a href="index.html">Faculty of Marketing and Sale Management</a></li>
+                <li><a href="index.html">Faculty of Information Systems</a></li>
+                <li><a href="index.html">Faculty of Hospitality and Tourism Management</a></li>
+                <li><a href="index.html">Faculty of Design and Film Production </a></li>
+                <li><a href="index.html">Faculty of Foreign Languages </a></li>
               </ul>
             </li>
              <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academic<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="index.html">Colleges</a></li>
-                <li><a href="index.html">About Us</a></li>
-                <li><a href="index.html">About Us</a></li>
+                <li><a href="index.html">Foundation Year Program</a></li>
+                <li><a href="index.html">Associate Degrees</a></li>
+                <li><a href="index.html">Bachelor Degrees</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="index.html">Colleges</a></li>
-                <li><a href="index.html">About Us</a></li>
-                <li><a href="index.html">About Us</a></li>
+                <li><a href="index.html">Asia Economic Forum</a></li>
+                <li><a href="index.html">Global Network of ASEAN Study Centers</a></li>
+                <li><a href="index.html">CEO Institute Foundation</a></li>
               </ul>
             </li>
              <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Students<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="index.html">Colleges</a></li>
-                <li><a href="index.html">About Us</a></li>
-                <li><a href="index.html">About Us</a></li>
+                <li><a href="index.html">Scholarships</a></li>
+                <li><a href="index.html">Application Forms</a></li>
+                <li><a href="index.html">Student Code of Conduct</a></li>
+                <li><a href="index.html">Rights and Responsibilities</a></li>
+                <li><a href="index.html">Student Organizations</a></li>
+                <li><a href="index.html">Study Abroad</a></li>
+                <li><a href="index.html">Graduate Students' Booklet</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="index.html">Colleges</a></li>
-                <li><a href="index.html">About Us</a></li>
-                <li><a href="index.html">About Us</a></li>
+                <li><a href="index.html">ASEAN Study Center</a></li>
+                <li><a href="index.html">Council for Research and Creativity</a></li>
+                <li><a href="index.html">Institute for Research and Advanced Studies</a></li>
               </ul>
             </li>
             <li>
@@ -94,9 +105,9 @@
                 <div class="wow fadeInRight" data-wow-delay="0.1s">
 
                   <ul class="lead-list">
-                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>About Us</strong><br />Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis</span></li>
-                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Member Benefit</strong><br />Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis</span></li>
-                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Choaching Program</strong><br />Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>CEO INSTITUTE</strong><br />Cambodia since January 2014 with a strong social mission</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Member Benefit</strong><br />Our success principle is that we can succeed.</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Choaching Program</strong><br />Our Program in CEO INSTITUTE</span></li>
                   </ul>
                   <p class="text-right wow bounceIn" data-wow-delay="0.4s">
                     <a href="#" class="btn btn-skin btn-lg">Learn more <i class="fa fa-angle-right"></i></a>
@@ -125,7 +136,7 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="wow fadeInDown" data-wow-delay="0.1s">
               <div class="section-heading text-center">
-                <h2 class="h-bold">PROFESSIONAL</h2>
+                <h2 class="h-bold">PROFESSOR</h2>
               </div>
             </div>
             <div class="divider-short"></div>
@@ -153,7 +164,7 @@
                     </div>
                   </a>
                   <a href="doctors/member1.html" class="cbp-singlePage cbp-l-grid-team-name">Om Seng Bora</a>
-                  <div class="cbp-l-grid-team-position">Psychiatrist</div>
+                  {{-- <div class="cbp-l-grid-team-position">Psychiatrist</div> --}}
                 </li>
                 <li class="cbp-item cardiologist">
                   <a href="doctors/member2.html" class="cbp-caption cbp-singlePage">
@@ -169,7 +180,7 @@
                     </div>
                   </a>
                   <a href="doctors/member2.html" class="cbp-singlePage cbp-l-grid-team-name">Soum Sambath</a>
-                  <div class="cbp-l-grid-team-position">Cardiologist</div>
+                  {{-- <div class="cbp-l-grid-team-position">Cardiologist</div> --}}
                 </li>
                 <li class="cbp-item cardiologist">
                   <a href="doctors/member3.html" class="cbp-caption cbp-singlePage">
@@ -185,7 +196,7 @@
                     </div>
                   </a>
                   <a href="doctors/member3.html" class="cbp-singlePage cbp-l-grid-team-name">Tan Monivann</a>
-                  <div class="cbp-l-grid-team-position">Cardiologist</div>
+                  {{-- <div class="cbp-l-grid-team-position">Cardiologist</div> --}}
                 </li>
                 <li class="cbp-item neurologist">
                   <a href="doctors/member4.html" class="cbp-caption cbp-singlePage">
@@ -201,7 +212,7 @@
                     </div>
                   </a>
                   <a href="doctors/member4.html" class="cbp-singlePage cbp-l-grid-team-name">Thorng Sokhom</a>
-                  <div class="cbp-l-grid-team-position">Neurologist</div>
+                  {{-- <div class="cbp-l-grid-team-position">Neurologist</div> --}}
                 </li>
 
               </ul>
@@ -259,8 +270,9 @@
                   <span class="fa fa-stethoscope fa-3x"></span>
                 </div>
                 <div class="service-desc">
-                  <h5 class="h-light">International Leadership</h5>
-                  <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
+                  <h5 class="h-light">International Business Managemant</h5>
+                  <p>Vestibulum tincidunt enim in pharetra malesuada
+                  Vestibulum tincidunt enim in pharetra malesuada..</p>
                 </div>
               </div>
             </div>
@@ -271,8 +283,9 @@
                   <span class="fa fa-wheelchair fa-3x"></span>
                 </div>
                 <div class="service-desc">
-                  <h5 class="h-light">Computer Engineer</h5>
-                  <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
+                  <h5 class="h-light">Accounting & Finnce</h5>
+                  <p>Vestibulum tincidunt enim in pharetra malesuada 
+                  Vestibulum..</p>
                 </div>
               </div>
             </div>
@@ -282,7 +295,7 @@
                   <span class="fa fa-plus-square fa-3x"></span>
                 </div>
                 <div class="service-desc">
-                  <h5 class="h-light">Pharmacy</h5>
+                  <h5 class="h-light">Marketing & Sale</h5>
                   <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
                 </div>
               </div>
@@ -298,8 +311,11 @@
                   <span class="fa fa-h-square fa-3x"></span>
                 </div>
                 <div class="service-desc">
-                  <h5 class="h-light">Gyn Care</h5>
-                  <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
+                  <h5 class="h-light">Information System</h5>
+                  <p>
+                    Vestibulum tincidunt enim in pharetra malesuada 
+                    Vestibulum tincidunt enim in pharetra malesuada..
+                  </p>
                 </div>
               </div>
             </div>
@@ -310,7 +326,7 @@
                   <span class="fa fa-filter fa-3x"></span>
                 </div>
                 <div class="service-desc">
-                  <h5 class="h-light">Neurology</h5>
+                  <h5 class="h-light">Hospital and Tourism</h5>
                   <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
                 </div>
               </div>
@@ -321,7 +337,7 @@
                   <span class="fa fa-user-md fa-3x"></span>
                 </div>
                 <div class="service-desc">
-                  <h5 class="h-light">Sleep Center</h5>
+                  <h5 class="h-light">Design and Firm Production</h5>
                   <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
                 </div>
               </div>
@@ -356,9 +372,9 @@
 
 
                 <i class="fa fa-check fa-3x circled bg-skin"></i>
-                <h4 class="h-bold">Make an appoinment</h4>
+                <h4 class="h-bold">Foundation Year Program</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
+                 Established in Cambodia since January 2014 with a strong social mission, CEO Master Club is the first business coaching, networking
                 </p>
               </div>
             </div>
@@ -368,9 +384,9 @@
               <div class="box text-center">
 
                 <i class="fa fa-list-alt fa-3x circled bg-skin"></i>
-                <h4 class="h-bold">Choose your package</h4>
+                <h4 class="h-bold">Associate Degrees</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
+                  Established in Cambodia since January 2014 with a strong social mission, CEO Master Club is the first business coaching, networking
                 </p>
               </div>
             </div>
@@ -379,9 +395,9 @@
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="box text-center">
                 <i class="fa fa-user-md fa-3x circled bg-skin"></i>
-                <h4 class="h-bold">Help by specialist</h4>
+                <h4 class="h-bold">Bachelor Degrees</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
+                 Established in Cambodia since January 2014 with a strong social mission, CEO Master Club is the first business coaching, networking
                 </p>
               </div>
             </div>
@@ -391,9 +407,9 @@
               <div class="box text-center">
 
                 <i class="fa fa-hospital-o fa-3x circled bg-skin"></i>
-                <h4 class="h-bold">Get diagnostic report</h4>
+                <h4 class="h-bold">Master Degrees</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
+                 Established in Cambodia since January 2014 with a strong social mission, CEO Master Club is the first business coaching, networking
                 </p>
               </div>
             </div>
