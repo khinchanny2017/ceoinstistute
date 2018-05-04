@@ -11,7 +11,7 @@
               <p class="bold text-left">Monday - Saturday, 8am to 10pm </p>
             </div>
             <div class="col-sm-6 col-md-6">
-              <p class="bold text-right fa fa-envelope-o fa-stack-1x fa-inverse"> ceo-info@ceoinstistute.com</p>
+              <p class="bold text-right fa fa-envelope-o fa-stack-1x fa-inverse"> ceo-info@ceoinstistute.com </p>
             </div>
           </div>
         </div>
@@ -359,18 +359,15 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="wow fadeInDown" data-wow-delay="0.1s">
               <div class="section-heading text-center">
-                <h2 class="h-bold">ACADEMICS</h2>
+                <h2 class="h-bold">ACADEMIC</h2>
               </div>
             </div>
-            <div class="divider-short"></div>
           </div>
         </div>
       </div>
           <div class="col-sm-3 col-md-3">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="box text-center">
-
-
                 <i class="fa fa-check fa-3x circled bg-skin"></i>
                 <h4 class="h-bold">Foundation Year Program</h4>
                 <p>
@@ -397,7 +394,7 @@
                 <i class="fa fa-user-md fa-3x circled bg-skin"></i>
                 <h4 class="h-bold">Bachelor Degrees</h4>
                 <p>
-                 Established in Cambodia since January 2014 with a strong social mission, CEO Master Club is the first business coaching, networking
+                 Established in Cambodia since January 2014 with a strong social mission, CEO Master Club is the first business coaching, netwOrthopedic Surgeryorking
                 </p>
               </div>
             </div>
@@ -491,7 +488,7 @@
                   <div class="col-lg-8 col-lg-offset-2">
                     <div class="wow lightSpeedIn" data-wow-delay="0.1s">
                       <div class="section-heading text-center as">
-                        <h2 class="h-bold partner">Our partner</h2>
+                        <h2 class="h-bold partner">Official Partners</h2>
                         <p>Take charge of your health today with our specially designed health packages</p>
                       </div>
                     </div>
@@ -504,45 +501,22 @@
               <div class="carousel-inner">
                 <div class="item active">
                   <div class="col-md-4 col-sm-6">
-                    <div class="block-text rel zmin">
-                      <a title="" href="#">Emergency Contraception</a>
-                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
-                          class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
-                      </div>
-                      <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                    </div>
+                    
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/1.jpg') }}" alt="" class="person img-circle" />
-                      <a title="" href="#">Anna</a>
-                      <span>Chicago, Illinois</span>
+                      <a title="" href="#">Brain Scan</a>
+                      <span>Cambodia</span>
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 hidden-xs">
-                    <div class="block-text rel zmin">
-                      <a title="" href="#">Orthopedic Surgery</a>
-                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span>
-                        <span
-                          data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
-                      </div>
-                      <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                    </div>
+                    
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/2.jpg') }}" alt="" class="person img-circle" />
                       <a title="" href="#">Matthew G</a>
                       <span>San Antonio, Texas</span>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
-                    <div class="block-text rel zmin">
-                      <a title="" href="#">Medical consultation</a>
-                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
-                          class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span> </span>
-                      </div>
-                      <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                    </div>
+                  <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">                  
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/3.jpg') }}" alt="" class="person img-circle" />
                       <a title="" href="#">Scarlet Smith</a>
@@ -551,46 +525,21 @@
                   </div>
                 </div>
                 <div class="item">
-                  <div class="col-md-4 col-sm-6">
-                    <div class="block-text rel zmin">
-                      <a title="" href="#">Birth control pills</a>
-                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
-                          class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
-                      </div>
-                      <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                    </div>
+                  <div class="col-md-4 col-sm-6">                    
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/4.jpg') }}" alt="" class="person img-circle" />
                       <a title="" href="#">Lucas Thompson</a>
                       <span>Austin, Texas</span>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-6 hidden-xs">
-                    <div class="block-text rel zmin">
-                      <a title="" href="#">Radiology</a>
-                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span>
-                        <span
-                          data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
-                      </div>
-                      <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                    </div>
+                  <div class="col-md-4 col-sm-6 hidden-xs">                   
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/5.jpg')}}" alt="" class="person img-circle" />
                       <a title="" href="#">Ella Mentree</a>
                       <span>Fort Worth, Texas</span>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
-                    <div class="block-text rel zmin">
-                      <a title="" href="#">Cervical Lesions</a>
-                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
-                          class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span> </span>
-                      </div>
-                      <p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
-                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                    </div>
+                  <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">                   
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/6.jpg') }}" alt="" class="person img-circle" />
                       <a title="" href="#">Suzanne Adam</a>

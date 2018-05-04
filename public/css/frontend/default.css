@@ -2,7 +2,10 @@
 #1 color = #4ACCD1;
 #2 color = #3fbbc0;
 */
-
+section#boxes {
+    background: #999;
+    color: #fff;
+}
 a:hover,
 a:focus {
     color: #4ACCD1;
