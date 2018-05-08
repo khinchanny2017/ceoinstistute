@@ -22,7 +22,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
           <a class="navbar-brand" href="/">
-              <img class="log-img" src="{{ asset('img/logo_ceoins.png') }}" alt="" />              
+              <img class="log-img ceo-institute" src="{{ asset('img/logo_ceoins.png') }}" alt="" />              
           </a>
           <a class="navbar-brand" href="http://www.ceomasterclub.com/">
             <img class="log-img img-ceo" src="{{ asset('img/frontend/logo_ceo.png') }}" alt="">
@@ -489,7 +489,6 @@
                     <div class="wow lightSpeedIn" data-wow-delay="0.1s">
                       <div class="section-heading text-center as">
                         <h2 class="h-bold partner">Official Partners</h2>
-                        <p>Take charge of your health today with our specially designed health packages</p>
                       </div>
                     </div>
                     <div class="divider-short"></div>
@@ -504,23 +503,23 @@
                     
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/1.jpg') }}" alt="" class="person img-circle" />
-                      <a title="" href="#">Brain Scan</a>
-                      <span>Cambodia</span>
+                      {{-- <a title="" href="#">Brain Scan</a> --}}
+                      {{-- <span>Cambodia</span> --}}
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 hidden-xs">
                     
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/2.jpg') }}" alt="" class="person img-circle" />
-                      <a title="" href="#">Matthew G</a>
-                      <span>San Antonio, Texas</span>
+                      {{-- <a title="" href="#">Matthew G</a> --}}
+                      {{-- <span>San Antonio, Texas</span> --}}
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">                  
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/3.jpg') }}" alt="" class="person img-circle" />
-                      <a title="" href="#">Scarlet Smith</a>
-                      <span>Dallas, Texas</span>
+                      {{-- <a title="" href="#">Scarlet Smith</a> --}}
+                      {{-- <span>Dallas, Texas</span> --}}
                     </div>
                   </div>
                 </div>
@@ -528,22 +527,22 @@
                   <div class="col-md-4 col-sm-6">                    
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/4.jpg') }}" alt="" class="person img-circle" />
-                      <a title="" href="#">Lucas Thompson</a>
-                      <span>Austin, Texas</span>
+                      {{-- <a title="" href="#">Lucas Thompson</a> --}}
+                      {{-- <span>Austin, Texas</span> --}}
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 hidden-xs">                   
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/5.jpg')}}" alt="" class="person img-circle" />
-                      <a title="" href="#">Ella Mentree</a>
-                      <span>Fort Worth, Texas</span>
+                      {{-- <a title="" href="#">Ella Mentree</a> --}}
+                      {{-- <span>Fort Worth, Texas</span> --}}
                     </div>
                   </div>
                   <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">                   
                     <div class="person-text rel text-light">
                       <img src="{{ asset('img/frontend/testimonials/6.jpg') }}" alt="" class="person img-circle" />
-                      <a title="" href="#">Suzanne Adam</a>
-                      <span>Detroit, Michigan</span>
+                      {{-- <a title="" href="#">Suzanne Adam</a> --}}
+                      {{-- <span>Detroit, Michigan</span> --}}
                     </div>
                   </div>
                 </div>

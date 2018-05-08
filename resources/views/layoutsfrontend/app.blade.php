@@ -38,19 +38,7 @@
     <link id="t-colors" href="{{ asset('cDss/default.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <style>
-      img.log-img.img-ceo {
-        width: 4%;
-        position: absolute;
-        margin-left: 128px;
-      }
-      img.log-img {
-      display: block;
-      position: absolute;
-      bottom: 15px;
-      width: 10%;
-     }
-    </style>
+  
     
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">

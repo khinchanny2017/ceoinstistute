@@ -6,12 +6,11 @@
 	<div class="panel panel-default">
 		<div class="panel-heading"><h4>Form Create</h4></div>
 		<div class="panel-body">
-			{!! Form::open(['method' => 'GET', 'route' => 'form.edit', 'class' => 'form-horizontal']) !!}
+			{!! Form::open(['method' => 'PUT', 'URL' => 'backend/partner/form/', 'class' => 'form-horizontal']) !!}
 			{!! csrf_field() !!}
-			
-			   <div class="form-group col-md-12{{ $errors->has('company_name') ? ' has-error' : '' }}">
+			    <div class="form-group col-md-12{{ $errors->has('company_name') ? ' has-error' : '' }}">
 			       {!! Form::label('company_name', 'Company Name') !!}
-			       {!! Form::text('company_name', null, ['class' => 'form-control', 'required' => 'required']) !!}
+			       {!! Form::text('company_name',null, ['class' => 'form-control','required' => 'required']) !!}
 			       <small class="text-danger">{{ $errors->first('company_name') }}</small>
 			   </div>			  
 			   <div class="form-group col-md-12{{ $errors->has('description_company') ? ' has-error' : '' }}">
@@ -31,13 +30,12 @@
 			   </div>
 			   <div class="btn-group col-md-12">
 		        {!! Form::reset("Reset", ['class' => 'btn btn-warning']) !!}
-		        {!! Form::submit("Add", ['class' => 'btn btn-success']) !!}
-		    </div>
-			   
-			
+		        {!! Form::submit("Update", ['class' => 'btn btn-success']) !!}
+		    </div>	
 			{!! Form::close() !!}
 		</div>
 	</div>
 </div>
 @endsection
+
 
