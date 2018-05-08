@@ -28,11 +28,8 @@
 		       <td width="5%">{{$show->url_website}}</td>
 		       <td>
 		       	<td>
-		       	<a href="{{ url('backend/partner/form/{id}/edit'),$show->id }}" class="btn btn-warning">Update</a>
-       			</td>
-
-       			<td>
-		       	<a href="#" class="btn btn-danger">Deleted</a>
+		       	<a href="{{ route('form.edit',$show->id) }}" class="btn btn-sm btn-warning">Update</a>
+		       	<a href="#" class="btn btn-sm btn-danger">Deleted</a>
 		       </td>
 		      </tr>
 		    </tbody>

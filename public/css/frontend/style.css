@@ -20,6 +20,19 @@ body {
   font-size: 16px;
     line-height: 1.6em;
 }
+.carousel-reviews.broun-block {
+    background: #e6e6ef;
+    padding: 38px;
+}
+img.log-img.img-ceo {
+    width: 3%;
+    position: absolute;
+    bottom: 10px;
+    left: 564px;
+}
+img.log-img.ceo-institute {
+    /* width: 51%; */
+}
 i.fa.fa-check.fa-3x.circled.bg-skin {
     color: #000;
 }
@@ -31,9 +44,6 @@ i.fa.fa-user-md.fa-3x.circled.bg-skin {
 }
 i.fa.fa-hospital-o.fa-3x.circled.bg-skin {
     color: #000;
-}
-section#partner {
-    background: #E6E6EF;
 }
 .carousel-reviews.broun-block {
     
@@ -59,8 +69,8 @@ h2.h-bold.partner {
     display: block;
     /* background: blue; */
     position: relative;
-    bottom: 15px;
-    width: 60%;
+    bottom: 10px;
+    width: 54%;
 }
 .top-area.base {
     background: #292a2b;
@@ -1236,6 +1246,7 @@ Testimonial
   width: 200px;
   height: 200px;
   border-radius:  0;
+  /* border-radius: 50%; */
 }
 
 
