@@ -6,7 +6,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading"><h4>Form Create</h4></div>
 		<div class="panel-body">
-			{!! Form::open(['method' => 'GET', 'route' => 'form.edit', 'class' => 'form-horizontal']) !!}
+			{!! Form::open(['method' => 'POST', 'route' => 'form.edit', 'class' => 'form-horizontal']) !!}
 			{!! csrf_field() !!}
 			
 			   <div class="form-group col-md-12{{ $errors->has('company_name') ? ' has-error' : '' }}">
