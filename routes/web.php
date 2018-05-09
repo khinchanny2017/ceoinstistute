@@ -20,11 +20,11 @@ Route::get('/account-finance', 'Frontend\CollegesController@index')->name('index
 Route::get('/marketing-sales', 'Frontend\CollegesController@marketingSales')->name('marketingSales');
 Route::get('/infor-system', 'Frontend\CollegesController@inforSystem')->name('inforSystem');
 Route::get('/hospi-tourism', 'Frontend\CollegesController@hospiTourism')->name('hospiTourism');
-Route::get('/hospi-tourism', 'Frontend\CollegesController@designFile')->name('designFile');
+Route::get('/design-firm', 'Frontend\CollegesController@designFile')->name('designFile');
 Route::get('/foreign-language', 'Frontend\CollegesController@ForeignLaguage')->name('ForeignLaguage');
 
-
-
+//about AboutController
+Route::get('/about-us','Frontend\AboutController@index')->name('index');
 
 
 

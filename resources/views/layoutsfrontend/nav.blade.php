@@ -14,21 +14,24 @@
       <div class="container navigation">
         <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-          <a class="navbar-brand" href="/">
+             <i class="fa fa-bars"></i>
+          </button>
+          <div class="container-logo">
+             <a class="navbar-brand" href="/">
               <img class="log-img ceo-institute" src="{{ asset('img/logo_ceoins.png') }}" alt="" />              
           </a>
           <a class="navbar-brand" href="http://www.ceomasterclub.com/">
             <img class="log-img img-ceo" src="{{ asset('img/frontend/logo_ceo.png') }}" alt="">
           </a>
+          </div>
+         
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="/">Home</a></li>
             <li>
-              <a href="">About CEO</a>
+              <a href="{{ url('/about-us') }}">About CEO</a>
             </li>
              <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colleges<b class="caret"></b></a>
@@ -38,8 +41,8 @@
                 <li><a href="{{ url('/marketing-sales') }}">Faculty of Marketing and Sale Management</a></li>
                 <li><a href="{{ url('/infor-system') }}">Faculty of Information Systems</a></li>
                 <li><a href="{{ url('/hospi-tourism') }}">Faculty of Hospitality and Tourism Management</a></li>
-                <li><a href="index.html">Faculty of Design and Film Production </a></li>
-                <li><a href="index.html">Faculty of Foreign Languages </a></li>
+                <li><a href="{{ url('/design-firm') }}">Faculty of Design and Film Production </a></li>
+                <li><a href="{{ url('/foreign-language') }}">Faculty of Foreign Languages </a></li>
               </ul>
             </li>
              <li class="dropdown">

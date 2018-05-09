@@ -462,6 +462,30 @@
                   </div>
                 </div>
 
+                <div class="item">
+                  <div class="col-md-4 col-sm-6">                    
+                    <div class="person-text rel text-light">
+                      <img src="{{ asset('img/frontend/testimonials/07.jpg') }}" alt="" class="person img-circle" />
+                      {{-- <a title="" href="#">Lucas Thompson</a> --}}
+                      {{-- <span>Austin, Texas</span> --}}
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-xs">                   
+                    <div class="person-text rel text-light">
+                      <img src="{{ asset('img/frontend/testimonials/08.jpg')}}" alt="" class="person img-circle" />
+                      {{-- <a title="" href="#">Ella Mentree</a> --}}
+                      {{-- <span>Fort Worth, Texas</span> --}}
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">                   
+                    <div class="person-text rel text-light">
+                      <img src="{{ asset('img/frontend/testimonials/6.jpg') }}" alt="" class="person img-circle" />
+                      {{-- <a title="" href="#">Suzanne Adam</a> --}}
+                      {{-- <span>Detroit, Michigan</span> --}}
+                    </div>
+                  </div>
+                </div>
+
 
               </div>
 

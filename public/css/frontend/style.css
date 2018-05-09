@@ -12,6 +12,9 @@ section.home-section.boxs-padding {
     padding-top: 191px;
     padding-bottom: 73px;
 }
+.col-md-8.param.clearfix p {
+    text-align: justify;
+}
 
 body {
     width: 100%;
