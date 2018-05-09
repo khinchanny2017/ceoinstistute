@@ -26,3 +26,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::resource('backend/partner/form','Backend\PartnerShipController');
+Route::resource('backend/student/form','Backend\StudentInstituteController');

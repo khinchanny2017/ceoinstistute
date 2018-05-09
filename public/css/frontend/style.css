@@ -1246,7 +1246,8 @@ Testimonial
   width: 200px;
   height: 200px;
   border-radius:  0;
-  /* border-radius: 50%; */
+  border-radius: 50%;
+  border: 5px solid #666;
 }
 
 
