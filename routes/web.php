@@ -15,6 +15,19 @@ Route::get('/', function () {
     return view('frontend.home');
 });
 
+//Call Frontend 
+Route::get('/account-finance', 'Frontend\CollegesController@index')->name('index');
+Route::get('/marketing-sales', 'Frontend\CollegesController@marketingSales')->name('marketingSales');
+Route::get('/infor-system', 'Frontend\CollegesController@inforSystem')->name('inforSystem');
+Route::get('/hospi-tourism', 'Frontend\CollegesController@hospiTourism')->name('hospiTourism');
+Route::get('/hospi-tourism', 'Frontend\CollegesController@designFile')->name('designFile');
+Route::get('/foreign-language', 'Frontend\CollegesController@ForeignLaguage')->name('ForeignLaguage');
+
+
+
+
+
+
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::get('/home/page', 'Backend\HomePageController@mainImages')->name('mainImages');
 
@@ -27,3 +40,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('backend/partner/form','Backend\PartnerShipController');
 Route::resource('backend/student/form','Backend\StudentInstituteController');
+
+
