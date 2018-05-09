@@ -6,7 +6,11 @@
 	<div class="panel panel-default">
 		<div class="panel-heading"><h4>Form Update</h4></div>
 		<div class="panel-body">
+<<<<<<< HEAD
+			{!! Form::open(['method' => 'POST', 'route' => 'form.edit', 'class' => 'form-horizontal']) !!}
+=======
 			{!! Form::open(['method' => 'PUT', 'URL' => 'backend/partner/form/', 'class' => 'form-horizontal']) !!}
+>>>>>>> 9f9167b2d0fafd214c442db47045420a01855f0b
 			{!! csrf_field() !!}
 			    <div class="form-group col-md-12{{ $errors->has('company_name') ? ' has-error' : '' }}">
 			       {!! Form::label('company_name', 'Company Name') !!}
