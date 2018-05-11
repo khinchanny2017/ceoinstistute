@@ -27,6 +27,10 @@ Route::get('/foreign-language', 'Frontend\CollegesController@ForeignLaguage')->n
 Route::get('/about-us','Frontend\AboutController@index')->name('index');
 
 
+//speed feature
+Route::get('/speed-feature','Frontend\SpeedFeatureController@index')->name('index');
+
+//end frontend
 
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::get('/home/page', 'Backend\HomePageController@mainImages')->name('mainImages');
@@ -36,9 +40,13 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //backend
-
-
 Route::resource('backend/partner/form','Backend\PartnerShipController');
 Route::resource('backend/student/form','Backend\StudentInstituteController');
+
+// ProfessorController
+Route::get('/professor','Backend\ProfessorController@index')->name('index');
+Route::get('/professor/create','Backend\ProfessorController@create')->name('create');
+Route::post('/professor/store','Backend\ProfessorController@store')->name('store');
+
 
 

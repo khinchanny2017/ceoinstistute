@@ -30,8 +30,13 @@
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="/">Home</a></li>
-            <li>
-              <a href="{{ url('/about-us') }}">About CEO</a>
+           
+             <li class="dropdown">
+              <a href="{{ url('/about-us') }}" class="dropdown-toggle" data-toggle="dropdown">About US<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="{{ url('/about-us') }}">About CEO Institute</a></li>                
+                <li><a href="{{ url('/speed-feature') }}">Speed Feature</a></li>                
+              </ul>
             </li>
              <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colleges<b class="caret"></b></a>

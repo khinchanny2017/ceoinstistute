@@ -21,11 +21,11 @@
 
                   <ul class="lead-list">
                     <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>CEO INSTITUTE</strong><br />Cambodia since January 2014 with a strong social mission</span></li>
-                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Member Benefit</strong><br />Our success principle is that we can succeed.</span></li>
-                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Choaching Program</strong><br />Our Program in CEO INSTITUTE</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>What is subject? </strong><br />Cambodia since January 2014 with a strong social mission</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Choaching Program</strong><br />Cambodia since January 2014 with a strong social mission</span></li>
                   </ul>
                   <p class="text-right wow bounceIn" data-wow-delay="0.4s">
-                    <a href="#" class="btn btn-skin btn-lg">Learn more <i class="fa fa-angle-right"></i></a>
+                    <a href="{{ url('/about-us') }}" class="btn btn-skin btn-lg">Learn more <i class="fa fa-angle-right"></i></a>
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@
             <div id="grid-container" class="cbp-l-grid-team">
               <ul>
                 <li class="cbp-item psychiatrist">
-                  <a href="doctors/member1.html" class="cbp-caption cbp-singlePage">
+                  <a href="#" class="cbp-caption cbp-singlePage">
                     <div class="cbp-caption-defaultWrap">
                       <img src="{{ asset('img/frontend/team/1.jpg') }}" alt="" width="100%">
                     </div>
@@ -78,7 +78,7 @@
                       </div>
                     </div>
                   </a>
-                  <a href="doctors/member1.html" class="cbp-singlePage cbp-l-grid-team-name">Om Seng Bora</a>
+                  <a href="#" class="cbp-singlePage cbp-l-grid-team-name">Om Seng Bora</a>
                   {{-- <div class="cbp-l-grid-team-position">Psychiatrist</div> --}}
                 </li>
                 <li class="cbp-item cardiologist">
