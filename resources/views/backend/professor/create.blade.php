@@ -7,7 +7,7 @@
 		<div class="panel panel-default">
 		<div class="panel-heading"><h4><a href="{{ route('index') }}">Professor Form</a></h4></div>
 			<div class="panel-body">
-				{!! Form::open(['method' => 'POST', 'route' => 'store', 'class' => 'form-horizontal']) !!}
+				{!! Form::open(['method' => 'POST', 'route' => 'store', 'enctype' => 'multipart/form-data', 'class' => 'form-horizontal']) !!}
 				
 				    <div class="form-group col-md-12{{ $errors->has('name') ? ' has-error' : '' }}">
 				        {!! Form::label('name', 'Name') !!}

@@ -3,10 +3,11 @@
 namespace App\Http\Controllers\backend;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Validator;
 
-use Illuminate\Validation\Validator;
+use App\Http\Controllers\Controller;
 use App\Models\Professor;
 
 class ProfessorController extends Controller
@@ -33,35 +34,29 @@ class ProfessorController extends Controller
     //  
    public function store(Request $request)
    {
-   	   $this->validate($request, [
-	    	'name' => 'required',
-            'image' => 'required',
-        ]);
+   	$this->validate($request, [
+
+        'name' => 'required',
+        'image' => 'required',
+
+    ]);
 
 
-        $image = $request->file('image');
-        dd($image);
-        $input['imagename'] = time().'.'.$image->getClientOriginalExtension();
-     
-   
-        $destinationPath = public_path('/thumbnail');
-        $img = Professor::make($image->getRealPath());
-        $img->resize(100, 100, function ($constraint) {
-		    $constraint->aspectRatio();
-		})->save($destinationPath.'/'.$input['imagename']);
+    $image = $request->file('image');
+    dd($image); exit();
+
+    $input['image'] = time().'.'.$image->getClientOriginalExtension();
+
+    $destinationPath = public_path('/public/img');
+
+    $image->move($destinationPath, $input['image']);
 
 
-        $destinationPath = public_path('/images');
-        $image->move($destinationPath, $input['imagename']);
+    // $this->postImage->add($input);
 
 
-        $this->postImage->add($input);
-
-
-        return back()
-        	->with('success','Image Upload successful')
-        	->with('imageName',$input['imagename']);
-    }
+    return back()->with('success','Image Upload successful');
+   }
 
 
  
