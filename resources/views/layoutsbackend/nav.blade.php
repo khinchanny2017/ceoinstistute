@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">CEO INSTITUTE</a>
+                <a class="navbar-brand" href="{{ url('/home' )}}">CEO INSTITUTE</a>
             </div>
             <!-- /.navbar-header -->
 

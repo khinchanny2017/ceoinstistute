@@ -4,7 +4,9 @@ namespace App\Http\Controllers\backend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
+use Illuminate\Validation\Validator;
 use App\Models\Professor;
 
 class ProfessorController extends Controller
@@ -13,7 +15,10 @@ class ProfessorController extends Controller
     //date: 10 May 2018
     Public function index()
     {
-    	return view('backend.professor.index');
+    	$users = DB::table('professor')->limit(10)
+    					->orderBy('id', 'desc')->get();
+
+        return view('backend.professor.index', ['users' => $users]);
     }
 
     // function create 
@@ -28,7 +33,7 @@ class ProfessorController extends Controller
     //  
    public function store(Request $request)
    {
-   	    $this->validate($request, [
+   	   $this->validate($request, [
 	    	'name' => 'required',
             'image' => 'required',
         ]);

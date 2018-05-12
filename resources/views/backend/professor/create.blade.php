@@ -5,7 +5,7 @@
 <div class="container">
 	<div class="row col-md-6 col-md-offset-3">
 		<div class="panel panel-default">
-		<div class="panel-heading"><h4>Professor Form</h4></div>
+		<div class="panel-heading"><h4><a href="{{ route('index') }}">Professor Form</a></h4></div>
 			<div class="panel-body">
 				{!! Form::open(['method' => 'POST', 'route' => 'store', 'class' => 'form-horizontal']) !!}
 				
